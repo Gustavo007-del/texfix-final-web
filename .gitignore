@@ -1,0 +1,12 @@
+node_modules/
+.next/
+.texfix-data/
+*.log
+
+
+git init
+gh repo create texfix-final-web --public --source=. --remote=origin
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git push -u origin main

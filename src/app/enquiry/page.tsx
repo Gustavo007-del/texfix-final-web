@@ -1,0 +1,1 @@
+import Form from '@/components/business/RequestForm';export default async function Page({searchParams}:{searchParams:Promise<{product?:string}>}){return <Form type="enquiry" {...await searchParams}/>}
